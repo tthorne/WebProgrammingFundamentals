@@ -15,7 +15,7 @@ var horseWeight
 weight = heartGirth * heartGirth * length / age; /* Figures out the weight by multplying the Heart Girth by the Heart Girth by length and dividing it by that age. */
 
 horseWeight = parseInt(weight);
-console.log("Your horse's weight is " + weight + "lbs."); /* Give the horse's weight */
+console.log("Your horse's weight is " + horseWeight + "lbs."); /* Give the horse's weight */
 
 feed = weight * 0.02; /* To determine the feed it takes the weight and multiplies it by 2% */
 console.log("Your horse should receive " + feed + "lbs. a day."); /* Gives the amount of food needed per day. */
