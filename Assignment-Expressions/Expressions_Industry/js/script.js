@@ -5,6 +5,8 @@
  */
 var item = alert ("How many cigarettes are in stock?"); /* Asks user question */
 var previousDay = prompt("How many cigarettes where there yeserday?"); /* Asks how many cigarette were there left from the previous day? */
+var previousUnboxed = prompt("How many were out of carton yesterday?"); /* Asks for how many packs were there yesterday? */
+var previousCarton = prompt("How many cartons were there yesterday?") /* Asks for how many cartons were there yesterday? */
 var unboxed = prompt("How many are out of carton?"); /* Asks how many cigaretttes are out of carton. */
 var carton = prompt("How many cartons are there?"); /* Asks for number of cartons */
 
