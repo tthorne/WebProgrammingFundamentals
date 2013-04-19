@@ -10,7 +10,7 @@ var previousCarton = prompt("How many cartons were there yesterday?") /* Asks fo
 var unboxed = prompt("How many are out of carton?"); /* Asks how many cigaretttes are out of carton. */
 var carton = prompt("How many cartons are there?"); /* Asks for number of cartons */
 
-totalCigsCurrent = unboxed + carton; /* Adds up current number of cigarettes. */
+totalCigsCurrent = unboxed + (carton * 10); /* Taking number to carton x 10 since there are 10 packs in a carton and adding that to number of packs. */
 console.log("There are currently " + totalCigsCurrent + "cigarettes in stock.");
 
 packs = previousUnboxed - unboxed; /* Takes previous days number of packs and subtracts them from current packs */
