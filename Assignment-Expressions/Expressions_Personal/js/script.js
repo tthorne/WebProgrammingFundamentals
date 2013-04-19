@@ -21,4 +21,4 @@ console.log("Your horse's weight is " + horseWeight + "lbs."); /* Give the horse
 feed = weight * 0.02; /* To determine the feed it takes the weight and multiplies it by 2% */
 
 totalFeed = parseFloat(feed);
-console.log("Your horse should receive " + TotalFeed + "lbs. a day."); /* Gives the amount of food needed per day. */
+console.log("Your horse should receive " + totalFeed + "lbs. a day."); /* Gives the amount of food needed per day. */
