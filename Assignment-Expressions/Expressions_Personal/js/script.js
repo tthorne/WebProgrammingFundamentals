@@ -7,11 +7,11 @@
 /* How much should I feed my horse? */
 
 var heartGirth = prompt("What is the Heart Girth of your horse?"); /* Asking the user for the mmeasurement of the horse's Heart Girth */
-var length = prompt("What is the Length of your horse?");
-var age = prompt("Is your horse a grown horse, yearling or weanling? Enter 330 for Grown, 301 for Yearling and 280 for Weanling.");
+var length = prompt("What is the Length of your horse?"); /*Asks the user for the length of the horse. */
+var age = prompt("Is your horse a grown horse, yearling or weanling? Enter 330 for Grown, 301 for Yearling and 280 for Weanling."); /* Asks the user if the horse is fully grown, yearling or weanling and then enter the correct number */
 
-weight = heartGirth * heartGirth * length / age;
-console.log("Your horse's weight is " + weight + "lbs.");
+weight = heartGirth * heartGirth * length / age; /* Figures out the weight by multplying the Heart Girth by the Heart Girth by length and dividing it by that age. */
+console.log("Your horse's weight is " + weight + "lbs."); /* Give the horse's weight */
 
-feed = weight * 0.02;
-console.log("Your horse should receive " + feed + "lbs. a day.");
+feed = weight * 0.02; /* To determine the feed it takes the weight and multiplies it by 2% */
+console.log("Your horse should receive " + feed + "lbs. a day."); /* Gives the amount of food needed per day. */
