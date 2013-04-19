@@ -10,7 +10,7 @@ var heartGirth = prompt("What is the Heart Girth of your horse?"); /* Asking the
 var length = prompt("What is the Length of your horse?"); /*Asks the user for the length of the horse. */
 var age = prompt("Is your horse a grown horse, yearling or weanling? Enter 330 for Grown, 301 for Yearling and 280 for Weanling."); /* Asks the user if the horse is fully grown, yearling or weanling and then enter the correct number */
 var horseWeight /* This variable will be used to parse the weight into an integer. */
-var totalFeed
+var totalFeed /* This variable will be used to parse the total lbs. of feed into a floating interger */
 
 
 weight = heartGirth * heartGirth * length / age; /* Figures out the weight by multplying the Heart Girth by the Heart Girth by length and dividing it by that age. */
@@ -20,5 +20,5 @@ console.log("Your horse's weight is " + horseWeight + "lbs."); /* Give the horse
 
 feed = weight * 0.02; /* To determine the feed it takes the weight and multiplies it by 2% */
 
-totalFeed = parseFloat(feed);
+totalFeed = parseFloat(feed); /* Tells the script to conver the total lbs of feed into a floatin point number. */
 console.log("Your horse should receive " + totalFeed + "lbs. a day."); /* Gives the amount of food needed per day. */
