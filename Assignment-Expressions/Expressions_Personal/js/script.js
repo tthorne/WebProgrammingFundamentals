@@ -6,7 +6,7 @@
 
 /* How much should I feed my horse? */
 
-var heartGirth = prompt("What is the Heart Girth of your horse?");
+var heartGirth = prompt("What is the Heart Girth of your horse?"); /* Asking the user for the mmeasurement of the horse's Heart Girth */
 var length = prompt("What is the Length of your horse?");
 var age = prompt("Is your horse a grown horse, yearling or weanling? Enter 330 for Grown, 301 for Yearling and 280 for Weanling.");
 
