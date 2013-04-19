@@ -15,7 +15,7 @@ var totalFeed
 
 weight = heartGirth * heartGirth * length / age; /* Figures out the weight by multplying the Heart Girth by the Heart Girth by length and dividing it by that age. */
 
-horseWeight = parseInt(weight);
+horseWeight = parseInt(weight); /* Tells the script to convert the horse's weight to an integer. */
 console.log("Your horse's weight is " + horseWeight + "lbs."); /* Give the horse's weight */
 
 feed = weight * 0.02; /* To determine the feed it takes the weight and multiplies it by 2% */
