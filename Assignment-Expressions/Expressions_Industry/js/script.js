@@ -12,4 +12,4 @@ totalCigsCurrent = (carton * 10)+ + unboxed; /* Taking number to carton x 10 sin
 console.log("There are currently " + totalCigsCurrent + "cigarettes in stock.");
 
 sold = previousDay - totalCigsCurrent; /* Takes previous cigarette count and subtract it from current cigarettes in stock. */
-console.log("There was a total of " + sold + "cigarettes were cold.")
+console.log("There was a total of " + sold + " cigarettes were sold.")
