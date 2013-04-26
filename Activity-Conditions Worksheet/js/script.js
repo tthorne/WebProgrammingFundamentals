@@ -12,29 +12,34 @@ To get in the heavyweight division of the Strawberry Festival’s pie eating con
     Result: “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
 */
 
-var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight.  */
+var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight. */
 if (currentWeight > 250) 
 {
-	console.log("The competitor qualifies for the heavyweight division."); /* If the competitor weighs over 250 print this */
+	console.log("The competitor qualifies for the heavyweight division."); /* If the competitor weighs over 250 print this */ 
 }else{
-	console.log("The competitor needs to gain some weight!"); /* If the competitor weighs less then 250 print this*/
+	console.log("The competitor needs to gain some weight!"); /* If the competitor weighs less then 250 print this */
 };
 
-/* Celsius to Fahrenheit converter
+/* Last Chance for Gas!
 
-Convert a temperature to either degrees Celsius or degrees Fahrenheit depending on what the user has entered. If the user puts a “C” for the unit, the calculator should convert to Celsius. If the user puts “F” for the unit, the calculator should convert to Fahrenheit.
+A driver has to determine if they can make it across the desert with their current fuel.  They are about to past the last gas station for the next 200 miles and they need to determine whether they should stop now for gas or not.
     
 
     Given:
-        Degrees (in F or C)
-        Unit (a string holding an “F” or a “C”)
-    Result:
-        “The temperature is X degrees Celsius.” Or “The temperature is X degrees Fahrenheit.”
-    Data Sets to Test: (Note that data sets are not the only numbers that should work with your code.)
-        32F is 0C
-        100C is 212F
-        90F is 32.22C
- */
+        Gas efficiency of the car (in mpg)
+        Gauge reading of the gas tank (in %)
+        Car’s gas tank capacity (in gallons)
+    Result To Print Out:
+        “Yes, you can make it without stopping for gas!” or “You only have X gallons of gas in your tank, better get gas now while you can!”
+*/
+var mpg = prompt("What is your vehicle's MPG?");
+var gauge = prompt("What is the reading on the gauge?");
+var tank = prompt("How many gallons of fuel can your gas tank hold?");
+
+gas = (mpg * tank) * gauge;
+stop = (gas >= 200 ) ? "Yes, you can make it without stopping for gas!" : "You only have " + gas + " gallons of gas in your tank, better get gas now while you can!";
+console.log(gas)
+console.log(stop)
 
 
 
