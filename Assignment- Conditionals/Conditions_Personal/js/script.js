@@ -6,12 +6,11 @@
 
 /* Should I change my fish tank water? */
 
-var ph = prompt("What is the ph level? "); /*  */
-var ammonia = prompt("What is the ammonia level?"); /* */
-var nitrite = prompt("What is the nitrite level?"); /* */
-var nitrate = prompt("What is the nitrate level?"); /* */
+var ammonia = prompt("What is the ammonia level?"); /* Asks what the ammonia level of the tank is. */
+var nitrite = prompt("What is the nitrite level?"); /* Asks what the ammonia level of the tank is. */
+var nitrate = prompt("What is the nitrate level?"); /* Asks what the ammonia level of the tank is. */
 
-if (ph >= 7 && ammonia == 0 && nitrite == 0 && nitrate <= 50)
+if (ammonia == 0 && nitrite == 0 && nitrate <= 50)
 {
 	console.log("You don't need to change the tank water.");
 }else{
