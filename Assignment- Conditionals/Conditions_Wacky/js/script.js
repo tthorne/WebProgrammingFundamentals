@@ -10,7 +10,7 @@ var temp = prompt("What is the current temperature?");
 if (temp <= 40) /* If temperature is less then 40 */
 {
 	drink = "I'm drinking hot chocolate."; /* This is the result. */
-}else if (temp >= 41 && temp <= 70) {
+}else if (temp >= 41 && temp <= 70) { /* If temperature is greater than 41 and less than 70 I'll drink Mountain Dew. */
 	drink = "I'm drinking Mountain Dew";
 }else{
 	change = ("I'm eating ice cream."); /* Result if ammonia, nitrites don't equal 0 and nitrates are greater then 50 ppm */
