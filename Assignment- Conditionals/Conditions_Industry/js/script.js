@@ -11,4 +11,4 @@ profit = (previousMonth < lastMonth) ? "The store made a profit compared to last
 /* If last month profit was greater than the previous month then the result will be "The store made a profit compared to last month." */
 /* If the profit from last month wasn't greater than the previous month then the result will be "The store didn't make a profit compared to last month." */
 
-console.log(profit);
+console.log(profit); /* Prints out result. */
