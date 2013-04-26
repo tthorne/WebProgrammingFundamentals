@@ -53,19 +53,19 @@ Make sure the user has the correct username and password. If the username doesn�
         “Password does not match our records.”  -if the username matches but the password does not
 
  */
- var userName = prompt("Enter your username:");
- var password = prompt("Enter your password:");
- var correctUsername = "Aquafina";
- var correctPassword = "Beginning";
+ var userName = prompt("Enter your username:"); /* Asks for username */
+ var password = prompt("Enter your password:"); /* Asks for password */
+ var correctUsername = "Aquafina"; /* Stored username */
+ var correctPassword = "Beginning"; /* Stored password */
  
- if (userName == correctUsername && password == correctPassword ){
-	 enter = "Welcome, " + userName + "!";
+ if (userName == correctUsername && password == correctPassword ){ /* Checks to see if username and password entered match stored password. */
+	 enter = "Welcome, " + userName + "!"; /* Print this if they match. */
 
- }else if (userName == correctUsername || password == correctPassword)
+ }else if (userName == correctUsername || password == correctPassword) /* Checks to see if either username or password are correct. */
  {
-	 enter = "User not found. Try again.";
+	 enter = "User not found. Try again."; /* Print this if username matched, but password doesn't. */
  }else{
-	 enter = "Password does not match our records.";
+	 enter = "Password does not match our records."; /* Print this if only usernames matches. */
  };
 
 console.log(enter);
