@@ -60,7 +60,7 @@ Make sure the user has the correct username and password. If the username doesnâ
  var correctUsername = "Aquafina";
  var correctPassword = "Beginning";
  
- if (username == correctUername && password == correctPassword ){
+ if (userName == correctUsername && password == correctPassword ){
 	 enter = "Welcome, " + userName + "!";
 
  }else{
