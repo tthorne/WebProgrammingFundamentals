@@ -14,13 +14,13 @@ To get in the heavyweight division of the Strawberry Festival’s pie eating con
         “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
 */
 
-var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight. */
+/*var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight. 
 if (currentWeight > 250)
 {
 	console.log("The competitor qualifies for the heavyweight division.");
 }else{
 	console.log("The competitor needs to gain some weight!")
-};
+}; */
 
 /* Celsius to Fahrenheit converter
 
@@ -55,7 +55,7 @@ Make sure the user has the correct username and password. If the username doesn�
         “Password does not match our records.”  -if the username matches but the password does not
 
  */
- var userName = prompt("Enter your username:");
+ /*var userName = prompt("Enter your username:");
  var password = prompt("Enter your password:");
  var correctUsername = "Aquafina";
  var correctPassword = "Beginning";
@@ -63,11 +63,14 @@ Make sure the user has the correct username and password. If the username doesn�
  if (userName == correctUsername && password == correctPassword ){
 	 enter = "Welcome, " + userName + "!";
 
- }else{
+ }else if (userName == correctUsername || password == correctPassword)
+ {
 	 enter = "User not found. Try again.";
+ }else{
+	 enter = "Password does not match our records.";
  };
 
-console.log(enter);
+console.log(enter); */
 
 /* Movie Ticket Price
 
@@ -80,3 +83,13 @@ Determine which of the two prices the customer is eligible for.
      Result To Print Out:
         “The ticket price is X”
  */
+ var age = prompt("How old are you?");
+ var movieTime = prompt("What time is the movie?");
+ if (age <= 10 || age >= 55) {
+	 price = 12 - 7;
+	 
+ }else{
+	 price = "$12.00";
+ };
+ 
+ console.log(price);
