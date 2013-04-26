@@ -8,5 +8,7 @@ var previousMonth = prompt("What was previous month's profit?"); /* Asks for the
 var lastMonth = prompt("What was last month's profit?"); /* Asks for last month's profit amount. */
 
 profit = (previousMonth < lastMonth) ? "The store made a profit compared to last month." : "The store didn't make a profit compared to last month.";
+/* */
+
 
 console.log(profit);
