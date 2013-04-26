@@ -13,7 +13,7 @@ if (temp <= 40) /* If temperature is less then 40 */
 }else if (temp >= 41 && temp <= 70) { /* If temperature is greater than 41 and less than 70 I'll drink Mountain Dew. */
 	drink = "I'm drinking Mountain Dew";
 }else{
-	change = ("I'm eating ice cream."); /* If temperature is greater than 71 I'll eat ice cream. */
+	drink = ("I'm eating ice cream."); /* If temperature is greater than 71 I'll eat ice cream. */
 }
 
 console.log(drink);
