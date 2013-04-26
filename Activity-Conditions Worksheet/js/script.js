@@ -8,18 +8,16 @@
 
 To get in the heavyweight division of the Strawberry Festival’s pie eating contest you must weigh 250 lbs or more.  Determine whether an entrant qualifies based on his weight.
 
-    Given:
-        Competitor’s weight.
-    Result:
-        “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
+    Given: Competitor’s weight.
+    Result: “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
 */
 
 var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight.  */
-if (currentWeight > 250)
+if (currentWeight > 250) 
 {
-	console.log("The competitor qualifies for the heavyweight division.");
+	console.log("The competitor qualifies for the heavyweight division."); /* If the competitor weighs over 250 print this */
 }else{
-	console.log("The competitor needs to gain some weight!")
+	console.log("The competitor needs to gain some weight!"); /* If the competitor weighs less then 250 print this*/
 };
 
 /* Celsius to Fahrenheit converter
