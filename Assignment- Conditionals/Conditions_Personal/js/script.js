@@ -5,7 +5,7 @@
  */
 
 /* Should I change my fish tank water? */
-
+var personal = alert("Do you need to change your tank water?");
 var ammonia = prompt("What is the ammonia level?"); /* Asks what the ammonia level of the tank is. */
 var nitrite = prompt("What is the nitrite level?"); /* Asks what the nitrite level of the tank is. */
 var nitrate = prompt("What is the nitrate level?"); /* Asks what the nitrate level of the tank is. */
