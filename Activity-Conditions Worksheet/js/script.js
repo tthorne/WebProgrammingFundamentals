@@ -14,13 +14,13 @@ To get in the heavyweight division of the Strawberry Festival’s pie eating con
         “The competitor qualifies for the heavyweight division.” Or  “ The competitor needs to gain some weight!”
 */
 
-/*var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight. 
+var currentWeight = prompt("How much do you weight?"); /* Asks competitor for their weight.  */
 if (currentWeight > 250)
 {
 	console.log("The competitor qualifies for the heavyweight division.");
 }else{
 	console.log("The competitor needs to gain some weight!")
-}; */
+};
 
 /* Celsius to Fahrenheit converter
 
