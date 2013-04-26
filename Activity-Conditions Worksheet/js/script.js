@@ -55,7 +55,7 @@ Make sure the user has the correct username and password. If the username doesnâ
         â€œPassword does not match our records.â€  -if the username matches but the password does not
 
  */
- /*var userName = prompt("Enter your username:");
+ var userName = prompt("Enter your username:");
  var password = prompt("Enter your password:");
  var correctUsername = "Aquafina";
  var correctPassword = "Beginning";
@@ -70,7 +70,7 @@ Make sure the user has the correct username and password. If the username doesnâ
 	 enter = "Password does not match our records.";
  };
 
-console.log(enter); */
+console.log(enter);
 
 /* Movie Ticket Price
 
@@ -85,14 +85,13 @@ Determine which of the two prices the customer is eligible for.
  */
  var age = prompt("How old are you?");
  var movieTime = prompt("What time is the movie?");
- if (age >= 55 && age <= 10){
+ if (movieTime >= 3 && movieTime <= 5){
 	 price = 12 - 7;
 	 
- }else if (movieTime >=5 && movieTime <=3){
-	 price = 12 - 7;
-	 
+ }else if (age <= 10 || age >=55){
+ 	 price = 12 - 7;
  }else{
-	 price = "$12.00";
+	 price = "12.00";
  };
  
- console.log(price);
+ console.log("The ticket price is $" + price);
