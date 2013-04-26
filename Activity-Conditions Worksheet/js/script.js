@@ -85,7 +85,10 @@ Determine which of the two prices the customer is eligible for.
  */
  var age = prompt("How old are you?");
  var movieTime = prompt("What time is the movie?");
- if ( (age <= 10 && age >= 55)  || (movieTime >= 3 && movieTime <= 5) ) {
+ if (age >= 55 && age <= 10){
+	 price = 12 - 7;
+	 
+ }else if (movieTime >=5 && movieTime <=3){
 	 price = 12 - 7;
 	 
  }else{
