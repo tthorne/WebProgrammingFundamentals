@@ -33,8 +33,8 @@ It takes 8.666666667 bee stings per pound to kill an animal. Calculate how many 
 */
 
 function beeStings(r){
-	var r = prompt("What is the radius of the circle?"); // Asks the user for the radius of the circle.
-	var circumference = 2 * 3.14 * r; // Calculates the circumference by taking 2 x pi x the radius
+	var weight = prompt("What is your weight?"); // Asks the user for the radius of the circle.
+	var circumference = 2 * 8.666666667; // Calculates the circumference by taking 2 x pi x the radius
 	console.log("The circumference of the circle is " + circumference); // The result of the calculations
 	}
-calCircumference(); // Calls the function
+console.log("It takes X bee stings to kill a " + totalStings):
