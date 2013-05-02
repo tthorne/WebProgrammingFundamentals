@@ -17,9 +17,9 @@ Calculate the circumference of a circle.
 function calCircumference(r){
 	var r = prompt("What is the radius of the circle?"); // Asks the user for the radius of the circle.
 	var circumference = 2 * 3.14 * r; // Calculates the circumference by taking 2 x pi x the radius
-	console.log("The circumference of the circle is " + circumference);
+	console.log("The circumference of the circle is " + circumference); // The result of the calculations
 	}
-calCircumference();
+calCircumference(); // Calls the function
 
 /* 
 Stung!
