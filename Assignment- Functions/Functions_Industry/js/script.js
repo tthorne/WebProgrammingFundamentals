@@ -5,11 +5,11 @@
  */
 
 
-/* How much money do I need to pay when I get to Pennsic War? */
-var calcAre = function(width, height){
-  var area = width * height;
-	return area;
+/* What was the average that people spent on instant scratch off tickets and online tickets in the store today? */
+var lotteryTickets = function(twenties, tens, fives, threes, twos, ones, online){
+	var totalTickets = (twenties + tens + fives + threes + twos + ones + online) / 7;
+	return totalTickets;
 }
 
-var a = calcArea (20, 30);
-console.log(a);
+var totalSales = lotteryTickets (130, 50, 25, 18, 20, 15, 500);
+console.log(totalSales);
