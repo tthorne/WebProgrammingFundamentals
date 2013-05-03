@@ -12,4 +12,5 @@ var lotteryTickets = function(twenties, tens, fives, threes, twos, ones, online)
 }
 
 var totalSales = lotteryTickets (130, 50, 25, 18, 20, 15, 500);
-console.log(totalSales);
+sales = parseInt(totalSales);
+console.log(sales);
