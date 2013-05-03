@@ -13,5 +13,5 @@ var lotteryTickets = function(twenties, tens, fives, threes, twos, ones, online)
 }
 
 var totalSales = lotteryTickets (130, 50, 25, 18, 20, 15, 500); // The arguments
-sales = parseInt(totalSales);
+sales = parseInt(totalSales); // parses the results from totalTickets to give an int
 console.log(sales);
