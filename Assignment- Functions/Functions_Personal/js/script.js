@@ -6,8 +6,8 @@
 
 function pennsicFees(){
 var personal = alert("How much money do I need to pay when I get to Pennsic War if you pre-register?");
-var fee = prompt("What is the fee for Pennsic?");
-var preRegDiscount = prompt("What is the nitrite level?");
+var fee = prompt("What is the fee for Pennsic?"); // Asks user for gate fee.
+var preRegDiscount = prompt("What is the nitrite level?"); // Asks user for pre-registration discount.
 var memberFee = prompt("What is the nitrate level?");
 var total = (fee - preRegDiscount) - memberFee;
 console.log(total);
