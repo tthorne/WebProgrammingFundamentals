@@ -4,14 +4,15 @@
  * Assignment:  Assignment- Functions (Wacky)
  */
  
-/* How many angelfish can I get into my tank? */
-function tank(gallons, gallonsPerFish){  
+/* Should I get a bigger fish tank? */
+function tank(g, gFish, stock){  
+var gallons = g;
+var gallonsPerFish = gFish;
+var fish = stock * gallonsPerFish; 
 
-var week2 = gallons / gallonsPerfish; 
+numberFish = (fish <= gallons || gallonsPerFish <= gallons) ? "You have plenty of room" : "You need a bigger tank.";
 
-numberFish = (previousMonth < lastMonth) ? "The store made a profit compared to last month." : "The store didn't make a profit compared to last month.";
-
-console.log(profit);
+console.log(numberFish);
 }
 
-tank(75, 10); // The arguments for the parameters
+tank(75, 10, 4); // The arguments for the parameters
