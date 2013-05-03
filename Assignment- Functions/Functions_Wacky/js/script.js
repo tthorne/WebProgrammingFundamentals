@@ -5,8 +5,8 @@
  */
  
 /* Should I get a bigger fish tank? */
-function tank(g, gFish, stock){  
-var gallons = g;
+function tank(g, gFish, stock){  // Parameters
+var gallons = g; // Defining g as gallons
 var gallonsPerFish = gFish;
 var fish = stock * gallonsPerFish; 
 
