@@ -7,7 +7,7 @@
 /* Should I get a bigger fish tank? */
 function tank(g, gFish, stock){  // Parameters
 var gallons = g; // Defining g as gallons
-var gallonsPerFish = gFish;
+var gallonsPerFish = gFish; // Defining gFish as gallonsPerFish
 var fish = stock * gallonsPerFish; 
 
 numberFish = (fish <= gallons || gallonsPerFish <= gallons) ? "You have plenty of room" : "You need a bigger tank.";
