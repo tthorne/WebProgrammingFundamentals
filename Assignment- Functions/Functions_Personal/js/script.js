@@ -4,14 +4,18 @@
  * Assignment:  Assignment- Functions (Personal)
  */
 
-function pennsicFees(){
-var personal = alert("How much money do I need to pay when I get to Pennsic War if you pre-register?");
-var fee = prompt("What is the fee for Pennsic?"); // Asks user for gate fee.
-var preRegDiscount = prompt("What is the nitrite level?"); // Asks user for pre-registration discount.
-var memberFee = prompt("What is the nitrate level?");
-var total = (fee - preRegDiscount) - memberFee;
-console.log(total);
+function pennsicFees(fee, deposit, preRegDiscount, memberFee, weeks){
+var totalWeeks = weeks;
+var week1 = fee - deposit - preRegDiscount - memberFee + 40;
+var week2 = fee - deposit - preRegDiscount - memberFee;
+if (week2 == 0){
+  console.log("You don't need to pay anything");
+}else if (weeks == 1){
+	console.log("You need $" + week1 + " when you get to Pennsic War");
+
+}else{
+	console.log("You need $" + week2 + " when you get to Pennsic War");
+};
 }
 
-pennsicFees();
-
+pennsicFees(190, 155, 10, 25, 2);
