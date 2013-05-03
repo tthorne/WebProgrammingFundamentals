@@ -1,19 +1,17 @@
 // JavaScript Document
 /* Student Name:  Tara Thorne
- * Date: Wednesday April 25, 2013
- * Assignment:  Assignment- Conditions (Wacky)
+ * Date: Wednesday May 1, 2013
+ * Assignment:  Assignment- Functions (Wacky)
  */
+ 
+/* How many angelfish can I get into my tank? */
+function tank(gallons, gallonsPerFish){  
 
-var wacky = alert("Do I want hot chocolate, Mountain Dew or ice cream?  If it is below 40 \xB0 F I'll drink Hot Chocolate.  If it's above 70 \xB0 I'll eat ice cream.");
-var temp = prompt("What is the current temperature?");
+var week2 = gallons / gallonsPerfish; 
 
-if (temp <= 40) /* If temperature is less then 40 */
-{
-	drink = "I'm drinking hot chocolate."; /* This is the result. */
-}else if (temp >= 41 && temp <= 70) { /* If temperature is greater than 41 and less than 70 I'll drink Mountain Dew. */
-	drink = "I'm drinking Mountain Dew";
-}else{
-	drink = ("I'm eating ice cream."); /* If temperature is greater than 71 I'll eat ice cream. */
+numberFish = (previousMonth < lastMonth) ? "The store made a profit compared to last month." : "The store didn't make a profit compared to last month.";
+
+console.log(profit);
 }
 
-console.log(drink);
+tank(75, 10); // The arguments for the parameters
