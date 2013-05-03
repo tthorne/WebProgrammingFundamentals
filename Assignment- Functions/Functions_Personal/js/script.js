@@ -19,4 +19,4 @@ if (totalWeeks == 2){
 };
 }
 
-pennsicFees(190, 155, 10, 0, 1);
+pennsicFees(190, 155, 10, 0, 1); // The arguments for the parameters
